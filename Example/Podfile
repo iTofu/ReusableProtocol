@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ReusableProtocol_Example' do
+  pod 'ReusableProtocol', :path => '../'
+
+  target 'ReusableProtocol_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
