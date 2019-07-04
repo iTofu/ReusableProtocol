@@ -1,0 +1,16 @@
+PODS:
+  - ReusableProtocol (0.1.0)
+
+DEPENDENCIES:
+  - ReusableProtocol (from `../`)
+
+EXTERNAL SOURCES:
+  ReusableProtocol:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReusableProtocol: a6503cf5831af059168ac41b1ba6d4a00d45f04a
+
+PODFILE CHECKSUM: d6bc380fb593388cee6ecba711fe2890dd8aad40
+
+COCOAPODS: 1.7.3

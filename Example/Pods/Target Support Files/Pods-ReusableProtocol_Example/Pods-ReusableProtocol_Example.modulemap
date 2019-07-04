@@ -1,0 +1,6 @@
+framework module Pods_ReusableProtocol_Example {
+  umbrella header "Pods-ReusableProtocol_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
