@@ -33,7 +33,8 @@ class CollectionViewController: UIViewController {
     collectionView.backgroundColor = .white
     collectionView.dataSource = self
     collectionView.register(CollectionViewCell.self)
-    collectionView.register(CollectionHeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader)
+    collectionView.register(CollectionHeaderView.self,
+                            forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader)
     return collectionView
   }()
 }
@@ -56,7 +57,9 @@ extension CollectionViewController: UICollectionViewDataSource {
   }
 
   func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-    let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, viewClass: CollectionHeaderView.self, for: indexPath)
+    let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
+                                                               viewClass: CollectionHeaderView.self,
+                                                               for: indexPath)
     view.render(text: "😈    \(indexPath.section)")
     return view
   }

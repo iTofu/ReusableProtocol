@@ -39,7 +39,8 @@ pod 'ReusableProtocol'
   
   // UICollectionView
   collectionView.register(CollectionViewCell.self)
-  collectionView.register(CollectionHeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader)
+  collectionView.register(CollectionHeaderView.self,
+                          forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader)
   ```
 
 * Dequeue the cell or view:
@@ -51,7 +52,9 @@ pod 'ReusableProtocol'
   
   // UICollectionView
   let cell = collectionView.dequeueReusableCell(with: CollectionViewCell.self, for: indexPath)
-  let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, viewClass: CollectionHeaderView.self, for: indexPath)
+  let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, 
+                                                             viewClass: CollectionHeaderView.self,
+                                                             for: indexPath)
   ```
 
 * *Optional*: You may want to register the cell or view from nib:
@@ -63,7 +66,9 @@ pod 'ReusableProtocol'
 
   // UICollectionView
   collectionView.register(CollectionViewCell.self, fromNib: true)
-  collectionView.register(CollectionHeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, fromNib: true)
+  collectionView.register(CollectionHeaderView.self, 
+                          forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader,
+                          fromNib: true)
   ```
 
 ## Author
