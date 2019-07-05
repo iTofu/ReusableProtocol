@@ -15,6 +15,7 @@
 		63D4A197ECC13F9E2259BEAB /* Pods_ReusableProtocol_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D34F880B546C3136B1B572 /* Pods_ReusableProtocol_Example.framework */; };
 		B31DAB5322CE24140096C2D0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31DAB5222CE24140096C2D0 /* TableViewController.swift */; };
 		B31DAB5522CE241C0096C2D0 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31DAB5422CE241C0096C2D0 /* CollectionViewController.swift */; };
+		B31DAB5E22CF0AE10096C2D0 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31DAB5D22CF0AE10096C2D0 /* Helper.swift */; };
 		ECFA04D7933D0C883251F9DA /* Pods_ReusableProtocol_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F8C383478650D7AE106B0 /* Pods_ReusableProtocol_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,10 +45,11 @@
 		B1FE7404A887795C1E08E53C /* Pods-ReusableProtocol_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReusableProtocol_Tests.release.xcconfig"; path = "Target Support Files/Pods-ReusableProtocol_Tests/Pods-ReusableProtocol_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B31DAB5222CE24140096C2D0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		B31DAB5422CE241C0096C2D0 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		B31DAB5D22CF0AE10096C2D0 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		B73AAB16D0D6F0E1D9A79BA6 /* Pods-ReusableProtocol_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReusableProtocol_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ReusableProtocol_Tests/Pods-ReusableProtocol_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7553139CDC99EC6A3A194AD /* Pods-ReusableProtocol_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReusableProtocol_Example.release.xcconfig"; path = "Target Support Files/Pods-ReusableProtocol_Example/Pods-ReusableProtocol_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CA424BD13EEAAEC6C4C746A6 /* Pods-ReusableProtocol_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReusableProtocol_Example.debug.xcconfig"; path = "Target Support Files/Pods-ReusableProtocol_Example/Pods-ReusableProtocol_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CD55FA7AD1818656AC972421 /* ReusableProtocol.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ReusableProtocol.podspec; path = ../ReusableProtocol.podspec; sourceTree = "<group>"; };
+		CD55FA7AD1818656AC972421 /* ReusableProtocol.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ReusableProtocol.podspec; path = ../ReusableProtocol.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F92F30A4706F0D9F5B121E63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				B31DAB5422CE241C0096C2D0 /* CollectionViewController.swift */,
 				B31DAB5222CE24140096C2D0 /* TableViewController.swift */,
+				B31DAB5D22CF0AE10096C2D0 /* Helper.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -337,6 +340,7 @@
 				B31DAB5522CE241C0096C2D0 /* CollectionViewController.swift in Sources */,
 				B31DAB5322CE24140096C2D0 /* TableViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				B31DAB5E22CF0AE10096C2D0 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

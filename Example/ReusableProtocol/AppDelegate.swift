@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  ReusableProtocol
 //
-//  Created by iTofu on 07/04/2019.
-//  Copyright (c) 2019 iTofu. All rights reserved.
+//  Created by LΞO on 07/04/2019.
+//  Copyright (c) 2019 Leo. All rights reserved.
 //
 
 import UIKit

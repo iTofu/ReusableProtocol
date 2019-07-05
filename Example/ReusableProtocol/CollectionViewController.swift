@@ -1,9 +1,9 @@
 //
 //  CollectionViewController.swift
-//  ReusableProtocol_Example
+//  ReusableProtocol
 //
 //  Created by LΞO on 2019/7/4.
-//  Copyright © 2019 CocoaPods. All rights reserved.
+//  Copyright © 2019 Leo. All rights reserved.
 //
 
 import UIKit
@@ -27,36 +27,53 @@ class CollectionViewController: UIViewController {
     layout.itemSize = CGSize(width: itemWidth, height: itemWidth)
     layout.minimumLineSpacing = margin
     layout.minimumInteritemSpacing = margin
+    layout.headerReferenceSize = CGSize(width: view.bounds.width, height: 50.0)
 
     let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
     collectionView.backgroundColor = .white
     collectionView.dataSource = self
     collectionView.register(CollectionViewCell.self)
+    collectionView.register(CollectionHeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader)
     return collectionView
   }()
-
-  private func randomColorValue() -> CGFloat {
-    return CGFloat(arc4random() % (256 / 2) + 256 / 2) / 255
-  }
 }
 
 // MARK: - UICollectionViewDataSource
 
 extension CollectionViewController: UICollectionViewDataSource {
+  func numberOfSections(in collectionView: UICollectionView) -> Int {
+    return 3
+  }
+
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-    return 20
+    return 10
   }
 
   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCell(with: CollectionViewCell.self, for: indexPath)
-    cell.render(color: UIColor(red: randomColorValue(), green: randomColorValue(), blue: randomColorValue(), alpha: 1.0))
+    cell.render(color: Helper.randomColor())
     return cell
+  }
+
+  func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+    let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, viewClass: CollectionHeaderView.self, for: indexPath)
+    view.render(text: "😈    \(indexPath.section)")
+    return view
   }
 }
 
 // MARK: - CollectionViewCell
 
-class CollectionViewCell: UICollectionViewCell {
+private class CollectionViewCell: UICollectionViewCell {
+
+  func render(color: UIColor) {
+    contentView.backgroundColor = color
+  }
+}
+
+// MARK: - CollectionHeaderView
+
+private class CollectionHeaderView: UICollectionReusableView {
 
   override init(frame: CGRect) {
     super.init(frame: frame)
@@ -71,19 +88,23 @@ class CollectionViewCell: UICollectionViewCell {
   override func layoutSubviews() {
     super.layoutSubviews()
 
-    colorfulView.frame = bounds
-  }
-
-  func render(color: UIColor) {
-    colorfulView.backgroundColor = color
+    let margin: CGFloat = 15.0
+    titleLabel.frame = CGRect(x: margin, y: 0.0, width: bounds.width - margin * 2, height: bounds.height)
   }
 
   private func setupUI() {
-    contentView.addSubview(colorfulView)
+    backgroundColor = .lightGray
+
+    addSubview(titleLabel)
   }
 
-  private lazy var colorfulView: UIView = {
-    let view = UIView()
-    return view
+  func render(text: String) {
+    titleLabel.text = text
+  }
+
+  private lazy var titleLabel: UILabel = {
+    let label = UILabel()
+    label.textColor = .white
+    return label
   }()
 }

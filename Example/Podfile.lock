@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ReusableProtocol: a6503cf5831af059168ac41b1ba6d4a00d45f04a
+  ReusableProtocol: c485e93f31cea7b23ecfcee1c5adb3325bc02c28
 
 PODFILE CHECKSUM: d6bc380fb593388cee6ecba711fe2890dd8aad40
 

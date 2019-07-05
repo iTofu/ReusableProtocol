@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ReusableProtocol'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ReusableProtocol.'
+  s.summary          = 'A helpful and pure Swift implemented library for registering and reusing views in table view and collection view.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                       ReusableProtocol is a helpful and pure Swift implemented library for registering and reusing views in table view and collection view.
                        DESC
 
   s.homepage         = 'https://github.com/iTofu/ReusableProtocol'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'iTofu' => 'leodaxia@gmail.com' }
+  s.author           = { 'Leo' => 'leodaxia@gmail.com' }
   s.source           = { :git => 'https://github.com/iTofu/ReusableProtocol.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/leodaxia'
+
+  s.swift_version = "4.2"
+  s.swift_versions = [4.0, 4.2, 5.0]
 
   s.ios.deployment_target = '8.0'
-
-  s.swift_versions = [4.0, 4.2, 5.0]
 
   s.source_files = 'ReusableProtocol/Classes/**/*'
   

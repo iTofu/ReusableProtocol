@@ -9,12 +9,13 @@
     "file": "LICENSE"
   },
   "authors": {
-    "iTofu": "leodaxia@gmail.com"
+    "Leo": "leodaxia@gmail.com"
   },
   "source": {
     "git": "https://github.com/iTofu/ReusableProtocol.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/leodaxia",
   "platforms": {
     "ios": "8.0"
   },
