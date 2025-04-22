@@ -1,5 +1,5 @@
 PODS:
-  - ReusableProtocol (0.1.0)
+  - ReusableProtocol (0.2.0)
 
 DEPENDENCIES:
   - ReusableProtocol (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ReusableProtocol: c485e93f31cea7b23ecfcee1c5adb3325bc02c28
+  ReusableProtocol: 77e2fb92dad86777884eebc53cdcdf079fa9f307
 
 PODFILE CHECKSUM: d6bc380fb593388cee6ecba711fe2890dd8aad40
 
-COCOAPODS: 1.7.3
+COCOAPODS: 1.16.2

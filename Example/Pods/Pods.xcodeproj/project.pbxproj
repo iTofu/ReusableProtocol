@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F8D8C270226870DA6CA9DDD844EF4B5 /* Pods-ReusableProtocol_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E611183B454BF2DD76E046BF1A947508 /* Pods-ReusableProtocol_Tests-dummy.m */; };
-		779AD9BB954DB65C6B4C1FD3E73562F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		77AFCFF0C124E00D2C732AD3D8B705C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7A07B49F05261FE67A164FC37B01328E /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E01BE9520FEF13C2E93749BDC3E21F /* ReusableProtocol.swift */; };
-		809F9FDEF66B79F387546EE3F2E5B6D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8BE41EF28C40EC9177264FB8639B2A64 /* ReusableProtocol-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A5E7A35759D9F02443194C204DB2FC /* ReusableProtocol-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92A4D94BC23772372DC6C7E4EC39ABC4 /* Pods-ReusableProtocol_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FA5C98AA02D46AC693E8784A07C99 /* Pods-ReusableProtocol_Example-dummy.m */; };
-		BAF566C0679A86185372921792A8B6D8 /* ReusableProtocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A14DE3287BB78C1492E26D0C3D7D879F /* ReusableProtocol-dummy.m */; };
-		BD755CF06701860A20661A49F96BDD23 /* Pods-ReusableProtocol_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5F0D582DB53F7BFC98F79A3BE2BE88 /* Pods-ReusableProtocol_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E47ADD3544B7A01A3EE08531EF10A443 /* Pods-ReusableProtocol_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C90A2A9B8A37F4E1508542D685C869 /* Pods-ReusableProtocol_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		081390C1E9020D9C28C78F65A6413F78 /* ReusableProtocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2944A33EB93727D0CFF5CEBDB7ED21 /* ReusableProtocol-dummy.m */; };
+		08AE9986D9CC0D26FD8383005D18A22D /* Pods-ReusableProtocol_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5F0D582DB53F7BFC98F79A3BE2BE88 /* Pods-ReusableProtocol_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27ACD5C3033E3DADAC7CD0EB203C34E9 /* Pods-ReusableProtocol_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E611183B454BF2DD76E046BF1A947508 /* Pods-ReusableProtocol_Tests-dummy.m */; };
+		5C8569A97BD6146A790BF09F64F619A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		73113A65F7E86E78A10EB717E379544F /* ReusableProtocol-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0AF70A75597FD5C77CD8B12B0DF427 /* ReusableProtocol-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		740675DB4647E4A1711A034251678430 /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3615EA81C0CDB117E7ACC40663AABCA /* ReusableProtocol.swift */; };
+		795B7DE85836CBDC7B0131BB525431E3 /* Pods-ReusableProtocol_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C90A2A9B8A37F4E1508542D685C869 /* Pods-ReusableProtocol_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4E856C4FB45440BC71ECDF7DED2F5BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		B4A53FB7ADAA69A949F019463896D4F9 /* Pods-ReusableProtocol_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FA5C98AA02D46AC693E8784A07C99 /* Pods-ReusableProtocol_Example-dummy.m */; };
+		D05367AB0B4BD176E0097D0120D41796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		52822CC8E679EA57FFDC6CAB703F0C4F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 737E22718ADD643A90B4D24ED362B334;
-			remoteInfo = "Pods-ReusableProtocol_Example";
-		};
-		CA83DFFDC5A788B34D1A6A8DA23EC141 /* PBXContainerItemProxy */ = {
+		6318A737EF238D663D5F737687A57E47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 869E23CF7271D67ED704950E6343646B;
 			remoteInfo = ReusableProtocol;
+		};
+		E2FD565FB068011A8C05071EB9F942B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 737E22718ADD643A90B4D24ED362B334;
+			remoteInfo = "Pods-ReusableProtocol_Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,65 +40,77 @@
 		05C7A67EB40D7C9624EAEFC15037FF39 /* Pods-ReusableProtocol_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReusableProtocol_Example-Info.plist"; sourceTree = "<group>"; };
 		061259343D70AC51E6B9A465B6ECC2BD /* Pods-ReusableProtocol_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReusableProtocol_Tests-Info.plist"; sourceTree = "<group>"; };
 		0EC8EBB266D334E8834D390251096D6B /* Pods-ReusableProtocol_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReusableProtocol_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		28AD2557949C86EB326FFE32F64C7DFF /* ReusableProtocol.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReusableProtocol.modulemap; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		157AB4CB50F234FB0BD39F481A8074ED /* ReusableProtocol-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReusableProtocol-Info.plist"; sourceTree = "<group>"; };
+		1C4BDEFE90B7836317C263AA827122C2 /* ReusableProtocol.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ReusableProtocol.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		21A1A6ACB4CA8E9B440022EAAC7AFE7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		333AD3604E3A780DA6B5D63CB1DC036E /* Pods-ReusableProtocol_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReusableProtocol_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		336DFEB884338268F26DFAC33AD9092F /* Pods_ReusableProtocol_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReusableProtocol_Tests.framework; path = "Pods-ReusableProtocol_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		359203AA1AAA1AA90AA75080379833A9 /* ReusableProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReusableProtocol-prefix.pch"; sourceTree = "<group>"; };
-		37E01BE9520FEF13C2E93749BDC3E21F /* ReusableProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReusableProtocol.swift; path = ReusableProtocol/Classes/ReusableProtocol.swift; sourceTree = "<group>"; };
-		50A5E7A35759D9F02443194C204DB2FC /* ReusableProtocol-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReusableProtocol-umbrella.h"; sourceTree = "<group>"; };
+		336DFEB884338268F26DFAC33AD9092F /* Pods-ReusableProtocol_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ReusableProtocol_Tests"; path = Pods_ReusableProtocol_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A17649CC3756B12F6889DA923E55300 /* ReusableProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReusableProtocol-prefix.pch"; sourceTree = "<group>"; };
 		5A5F82A5DE11CD84856BA9941E477E9B /* Pods-ReusableProtocol_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReusableProtocol_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		60556C6B2B4A81294729227DA86C0B9F /* ReusableProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReusableProtocol.framework; path = ReusableProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60556C6B2B4A81294729227DA86C0B9F /* ReusableProtocol */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReusableProtocol; path = ReusableProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		670369DBA7D95A53BB033EDD1286819A /* Pods-ReusableProtocol_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReusableProtocol_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		691658F44DFF90091A0B5C80ECF85D3D /* ReusableProtocol.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReusableProtocol.modulemap; sourceTree = "<group>"; };
 		69C90A2A9B8A37F4E1508542D685C869 /* Pods-ReusableProtocol_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReusableProtocol_Example-umbrella.h"; sourceTree = "<group>"; };
-		7D0C8BE8EDFC97F406490D7424219CEF /* ReusableProtocol.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ReusableProtocol.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C0AF70A75597FD5C77CD8B12B0DF427 /* ReusableProtocol-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReusableProtocol-umbrella.h"; sourceTree = "<group>"; };
+		72EF06D67B8A1533787650525D36864A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		82B0B0C9B5EAAA78EE97ED6987A13CCD /* Pods-ReusableProtocol_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReusableProtocol_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8AAA612F4ABB72D1A274F670F0AB0F5D /* Pods_ReusableProtocol_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReusableProtocol_Example.framework; path = "Pods-ReusableProtocol_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAA612F4ABB72D1A274F670F0AB0F5D /* Pods-ReusableProtocol_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ReusableProtocol_Example"; path = Pods_ReusableProtocol_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F40F0187E108614EA33AB056FD9B570 /* Pods-ReusableProtocol_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReusableProtocol_Tests.modulemap"; sourceTree = "<group>"; };
-		8F459422190EA45018A30A93E8A18FA9 /* ReusableProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReusableProtocol.xcconfig; sourceTree = "<group>"; };
 		942FA5C98AA02D46AC693E8784A07C99 /* Pods-ReusableProtocol_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReusableProtocol_Example-dummy.m"; sourceTree = "<group>"; };
+		943A5FCA1D4E20288461C95175D71707 /* ReusableProtocol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReusableProtocol.release.xcconfig; sourceTree = "<group>"; };
 		96061DECA95624E4BAD1959A4A1D0F9B /* Pods-ReusableProtocol_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReusableProtocol_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A14DE3287BB78C1492E26D0C3D7D879F /* ReusableProtocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReusableProtocol-dummy.m"; sourceTree = "<group>"; };
-		B468EC28E893FD5AD8719EC5C13E2830 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BB7DDE18C1418FBD31B7AEAF37B8C32A /* ReusableProtocol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReusableProtocol.debug.xcconfig; sourceTree = "<group>"; };
+		C3615EA81C0CDB117E7ACC40663AABCA /* ReusableProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReusableProtocol.swift; path = ReusableProtocol/Classes/ReusableProtocol.swift; sourceTree = "<group>"; };
 		C506A2D72051FFD855D8EC5AA2E3EBC6 /* Pods-ReusableProtocol_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReusableProtocol_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE5F0D582DB53F7BFC98F79A3BE2BE88 /* Pods-ReusableProtocol_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReusableProtocol_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DAA9DE594B0A47E4382CC1690D83906F /* Pods-ReusableProtocol_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReusableProtocol_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E296B6A1D1367560955CDED1A1BF1860 /* Pods-ReusableProtocol_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReusableProtocol_Example.modulemap"; sourceTree = "<group>"; };
 		E611183B454BF2DD76E046BF1A947508 /* Pods-ReusableProtocol_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReusableProtocol_Tests-dummy.m"; sourceTree = "<group>"; };
-		EBEA38FF7F39F2C9D82E6D804866B906 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		EF07CD750123668CA3D029B9B0060A46 /* Pods-ReusableProtocol_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReusableProtocol_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FCC3A6B67318193F63F5C3A5A1A81B84 /* ReusableProtocol-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReusableProtocol-Info.plist"; sourceTree = "<group>"; };
+		FE2944A33EB93727D0CFF5CEBDB7ED21 /* ReusableProtocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReusableProtocol-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2EF11CFF5271E3B8C4548329F9F57F89 /* Frameworks */ = {
+		A4AA637C65CD236720DDE76C293E1858 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77AFCFF0C124E00D2C732AD3D8B705C8 /* Foundation.framework in Frameworks */,
+				A4E856C4FB45440BC71ECDF7DED2F5BA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F6655E930E0DB0E922544FE06C8C69A /* Frameworks */ = {
+		AF6E881C940B3C22FFFFDB6B9B5B9B84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				809F9FDEF66B79F387546EE3F2E5B6D0 /* Foundation.framework in Frameworks */,
+				D05367AB0B4BD176E0097D0120D41796 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5328082862A117F2218C4A04486E2583 /* Frameworks */ = {
+		BF284AC5A85F9F85333A2A7B324A5706 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				779AD9BB954DB65C6B4C1FD3E73562F0 /* Foundation.framework in Frameworks */,
+				5C8569A97BD6146A790BF09F64F619A4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15C617ACDCDF713BAAE49442378C5899 /* ReusableProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				C3615EA81C0CDB117E7ACC40663AABCA /* ReusableProtocol.swift */,
+				38C21E26AAEE7EE93763A98D71EDB0C8 /* Pod */,
+				BF17F313CFF86EB04F317571137FF848 /* Support Files */,
+			);
+			name = ReusableProtocol;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		1925E64FDD2FF10C6E4877CE3A493FB8 /* Pods-ReusableProtocol_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,54 +144,47 @@
 			path = "Target Support Files/Pods-ReusableProtocol_Tests";
 			sourceTree = "<group>";
 		};
-		3EB1D233AD6F50F40479819D4D0E32E4 /* Products */ = {
+		2CA77E62A74581A12C96E12D393FE637 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8AAA612F4ABB72D1A274F670F0AB0F5D /* Pods_ReusableProtocol_Example.framework */,
-				336DFEB884338268F26DFAC33AD9092F /* Pods_ReusableProtocol_Tests.framework */,
-				60556C6B2B4A81294729227DA86C0B9F /* ReusableProtocol.framework */,
+				8AAA612F4ABB72D1A274F670F0AB0F5D /* Pods-ReusableProtocol_Example */,
+				336DFEB884338268F26DFAC33AD9092F /* Pods-ReusableProtocol_Tests */,
+				60556C6B2B4A81294729227DA86C0B9F /* ReusableProtocol */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		658B8E5CF265A4874B8DAFA71FCB647E /* Support Files */ = {
+		38C21E26AAEE7EE93763A98D71EDB0C8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				28AD2557949C86EB326FFE32F64C7DFF /* ReusableProtocol.modulemap */,
-				8F459422190EA45018A30A93E8A18FA9 /* ReusableProtocol.xcconfig */,
-				A14DE3287BB78C1492E26D0C3D7D879F /* ReusableProtocol-dummy.m */,
-				FCC3A6B67318193F63F5C3A5A1A81B84 /* ReusableProtocol-Info.plist */,
-				359203AA1AAA1AA90AA75080379833A9 /* ReusableProtocol-prefix.pch */,
-				50A5E7A35759D9F02443194C204DB2FC /* ReusableProtocol-umbrella.h */,
+				72EF06D67B8A1533787650525D36864A /* LICENSE */,
+				21A1A6ACB4CA8E9B440022EAAC7AFE7B /* README.md */,
+				1C4BDEFE90B7836317C263AA827122C2 /* ReusableProtocol.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ReusableProtocol";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		88FA4B4FDFDCC5E4ACAEA82FCF25332D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F1E1D1A76F8B42FB98A0BF334B6129ED /* ReusableProtocol */,
+				15C617ACDCDF713BAAE49442378C5899 /* ReusableProtocol */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		94C984FE9936A01B622F8DCACACDF017 /* Pod */ = {
+		BF17F313CFF86EB04F317571137FF848 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EBEA38FF7F39F2C9D82E6D804866B906 /* LICENSE */,
-				B468EC28E893FD5AD8719EC5C13E2830 /* README.md */,
-				7D0C8BE8EDFC97F406490D7424219CEF /* ReusableProtocol.podspec */,
+				691658F44DFF90091A0B5C80ECF85D3D /* ReusableProtocol.modulemap */,
+				FE2944A33EB93727D0CFF5CEBDB7ED21 /* ReusableProtocol-dummy.m */,
+				157AB4CB50F234FB0BD39F481A8074ED /* ReusableProtocol-Info.plist */,
+				5A17649CC3756B12F6889DA923E55300 /* ReusableProtocol-prefix.pch */,
+				6C0AF70A75597FD5C77CD8B12B0DF427 /* ReusableProtocol-umbrella.h */,
+				BB7DDE18C1418FBD31B7AEAF37B8C32A /* ReusableProtocol.debug.xcconfig */,
+				943A5FCA1D4E20288461C95175D71707 /* ReusableProtocol.release.xcconfig */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ReusableProtocol";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -188,7 +193,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				88FA4B4FDFDCC5E4ACAEA82FCF25332D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3EB1D233AD6F50F40479819D4D0E32E4 /* Products */,
+				2CA77E62A74581A12C96E12D393FE637 /* Products */,
 				D9A2583CDA80586B930C7184890D270A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -196,7 +201,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -210,41 +215,38 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F1E1D1A76F8B42FB98A0BF334B6129ED /* ReusableProtocol */ = {
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				37E01BE9520FEF13C2E93749BDC3E21F /* ReusableProtocol.swift */,
-				94C984FE9936A01B622F8DCACACDF017 /* Pod */,
-				658B8E5CF265A4874B8DAFA71FCB647E /* Support Files */,
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
 			);
-			name = ReusableProtocol;
-			path = ../..;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4C2A806E3F80BE085B4B86DF466EE381 /* Headers */ = {
+		195AA3C80FFB9CF33F2939CCE1506055 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BE41EF28C40EC9177264FB8639B2A64 /* ReusableProtocol-umbrella.h in Headers */,
+				08AE9986D9CC0D26FD8383005D18A22D /* Pods-ReusableProtocol_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E254063D8EF2406C13831032D0DD900 /* Headers */ = {
+		265DA7F69C99FCEA1661145D3E6FFB8D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E47ADD3544B7A01A3EE08531EF10A443 /* Pods-ReusableProtocol_Example-umbrella.h in Headers */,
+				795B7DE85836CBDC7B0131BB525431E3 /* Pods-ReusableProtocol_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B222C8145BB519034271FED7C45970D2 /* Headers */ = {
+		F193A3670BFC4A7ED757C4FF50DB646B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD755CF06701860A20661A49F96BDD23 /* Pods-ReusableProtocol_Tests-umbrella.h in Headers */,
+				73113A65F7E86E78A10EB717E379544F /* ReusableProtocol-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,31 +255,31 @@
 /* Begin PBXNativeTarget section */
 		737E22718ADD643A90B4D24ED362B334 /* Pods-ReusableProtocol_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0BFCE0506B5998872182598DDD294B8 /* Build configuration list for PBXNativeTarget "Pods-ReusableProtocol_Example" */;
+			buildConfigurationList = 4B3C25A06E7395BBEB0202DABE53E30E /* Build configuration list for PBXNativeTarget "Pods-ReusableProtocol_Example" */;
 			buildPhases = (
-				5E254063D8EF2406C13831032D0DD900 /* Headers */,
-				279721D7746B3BCD7E3C5368A2AA1E92 /* Sources */,
-				5328082862A117F2218C4A04486E2583 /* Frameworks */,
-				16E82864CC69B8F94D68EC658FF68E31 /* Resources */,
+				265DA7F69C99FCEA1661145D3E6FFB8D /* Headers */,
+				E290174A04AD585B0AE375B067DD7663 /* Sources */,
+				BF284AC5A85F9F85333A2A7B324A5706 /* Frameworks */,
+				55E6C0F854CB828539FD0A59C15B2245 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2AF98DD5A8EBD9538AFF2266BDDB2380 /* PBXTargetDependency */,
+				EF3B25CC60057F72876544CF3E42A05E /* PBXTargetDependency */,
 			);
 			name = "Pods-ReusableProtocol_Example";
-			productName = "Pods-ReusableProtocol_Example";
-			productReference = 8AAA612F4ABB72D1A274F670F0AB0F5D /* Pods_ReusableProtocol_Example.framework */;
+			productName = Pods_ReusableProtocol_Example;
+			productReference = 8AAA612F4ABB72D1A274F670F0AB0F5D /* Pods-ReusableProtocol_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		869E23CF7271D67ED704950E6343646B /* ReusableProtocol */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDB4D5E67B4DBD6E8D577AE94B279405 /* Build configuration list for PBXNativeTarget "ReusableProtocol" */;
+			buildConfigurationList = 961A1D6259A1C7546F9786CFE8A86709 /* Build configuration list for PBXNativeTarget "ReusableProtocol" */;
 			buildPhases = (
-				4C2A806E3F80BE085B4B86DF466EE381 /* Headers */,
-				05DAF0DD46B67E0E1E97F55092E407A8 /* Sources */,
-				2EF11CFF5271E3B8C4548329F9F57F89 /* Frameworks */,
-				BC90D79D84BDAD59D323D5D24D1235F8 /* Resources */,
+				F193A3670BFC4A7ED757C4FF50DB646B /* Headers */,
+				9A0A537A9C4A94B1E2C368FA59186A6C /* Sources */,
+				AF6E881C940B3C22FFFFDB6B9B5B9B84 /* Frameworks */,
+				2CE53880FC6100D49B73BF191DA8BDBD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -285,26 +287,26 @@
 			);
 			name = ReusableProtocol;
 			productName = ReusableProtocol;
-			productReference = 60556C6B2B4A81294729227DA86C0B9F /* ReusableProtocol.framework */;
+			productReference = 60556C6B2B4A81294729227DA86C0B9F /* ReusableProtocol */;
 			productType = "com.apple.product-type.framework";
 		};
 		87F460EE95BEE5C0F3E9A493DCF7F396 /* Pods-ReusableProtocol_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D485FD3905732ECA2F01C55706A8E14 /* Build configuration list for PBXNativeTarget "Pods-ReusableProtocol_Tests" */;
+			buildConfigurationList = 9C75E8CF3F1162385685F8195FCFBE9C /* Build configuration list for PBXNativeTarget "Pods-ReusableProtocol_Tests" */;
 			buildPhases = (
-				B222C8145BB519034271FED7C45970D2 /* Headers */,
-				96EEB50D0F468BA8F1AE0079CB1E4F22 /* Sources */,
-				3F6655E930E0DB0E922544FE06C8C69A /* Frameworks */,
-				D0FE4C4520CCD9D377B83D5502FD1A93 /* Resources */,
+				195AA3C80FFB9CF33F2939CCE1506055 /* Headers */,
+				D28808D6746BDFD3D5D7661F49925043 /* Sources */,
+				A4AA637C65CD236720DDE76C293E1858 /* Frameworks */,
+				ED5207D92CBA2F0FB7B96431B54E2AB2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E4A2176F609348387C1DECB639AA67EB /* PBXTargetDependency */,
+				31D4716D34C96E897508A19E677E126A /* PBXTargetDependency */,
 			);
 			name = "Pods-ReusableProtocol_Tests";
-			productName = "Pods-ReusableProtocol_Tests";
-			productReference = 336DFEB884338268F26DFAC33AD9092F /* Pods_ReusableProtocol_Tests.framework */;
+			productName = Pods_ReusableProtocol_Tests;
+			productReference = 336DFEB884338268F26DFAC33AD9092F /* Pods-ReusableProtocol_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -313,18 +315,21 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				Base,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3EB1D233AD6F50F40479819D4D0E32E4 /* Products */;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2CA77E62A74581A12C96E12D393FE637 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -336,21 +341,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		16E82864CC69B8F94D68EC658FF68E31 /* Resources */ = {
+		2CE53880FC6100D49B73BF191DA8BDBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC90D79D84BDAD59D323D5D24D1235F8 /* Resources */ = {
+		55E6C0F854CB828539FD0A59C15B2245 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0FE4C4520CCD9D377B83D5502FD1A93 /* Resources */ = {
+		ED5207D92CBA2F0FB7B96431B54E2AB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,113 +365,124 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05DAF0DD46B67E0E1E97F55092E407A8 /* Sources */ = {
+		9A0A537A9C4A94B1E2C368FA59186A6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAF566C0679A86185372921792A8B6D8 /* ReusableProtocol-dummy.m in Sources */,
-				7A07B49F05261FE67A164FC37B01328E /* ReusableProtocol.swift in Sources */,
+				740675DB4647E4A1711A034251678430 /* ReusableProtocol.swift in Sources */,
+				081390C1E9020D9C28C78F65A6413F78 /* ReusableProtocol-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		279721D7746B3BCD7E3C5368A2AA1E92 /* Sources */ = {
+		D28808D6746BDFD3D5D7661F49925043 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A4D94BC23772372DC6C7E4EC39ABC4 /* Pods-ReusableProtocol_Example-dummy.m in Sources */,
+				27ACD5C3033E3DADAC7CD0EB203C34E9 /* Pods-ReusableProtocol_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96EEB50D0F468BA8F1AE0079CB1E4F22 /* Sources */ = {
+		E290174A04AD585B0AE375B067DD7663 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8D8C270226870DA6CA9DDD844EF4B5 /* Pods-ReusableProtocol_Tests-dummy.m in Sources */,
+				B4A53FB7ADAA69A949F019463896D4F9 /* Pods-ReusableProtocol_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2AF98DD5A8EBD9538AFF2266BDDB2380 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ReusableProtocol;
-			target = 869E23CF7271D67ED704950E6343646B /* ReusableProtocol */;
-			targetProxy = CA83DFFDC5A788B34D1A6A8DA23EC141 /* PBXContainerItemProxy */;
-		};
-		E4A2176F609348387C1DECB639AA67EB /* PBXTargetDependency */ = {
+		31D4716D34C96E897508A19E677E126A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ReusableProtocol_Example";
 			target = 737E22718ADD643A90B4D24ED362B334 /* Pods-ReusableProtocol_Example */;
-			targetProxy = 52822CC8E679EA57FFDC6CAB703F0C4F /* PBXContainerItemProxy */;
+			targetProxy = E2FD565FB068011A8C05071EB9F942B6 /* PBXContainerItemProxy */;
+		};
+		EF3B25CC60057F72876544CF3E42A05E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReusableProtocol;
+			target = 869E23CF7271D67ED704950E6343646B /* ReusableProtocol */;
+			targetProxy = 6318A737EF238D663D5F737687A57E47 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		042ACA50C529694633EC1347415F7568 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF07CD750123668CA3D029B9B0060A46 /* Pods-ReusableProtocol_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReusableProtocol_Example/Pods-ReusableProtocol_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReusableProtocol_Example/Pods-ReusableProtocol_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		13F6927B217492A503CF2FAB172C9DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96061DECA95624E4BAD1959A4A1D0F9B /* Pods-ReusableProtocol_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReusableProtocol_Tests/Pods-ReusableProtocol_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReusableProtocol_Tests/Pods-ReusableProtocol_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -489,6 +505,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -514,7 +531,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -527,11 +544,10 @@
 			};
 			name = Debug;
 		};
-		A51537C2C506ECA1E513890B3DBFB3FC /* Release */ = {
+		83FB3CF10CA9543074383A187B8817CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F459422190EA45018A30A93E8A18FA9 /* ReusableProtocol.xcconfig */;
+			baseConfigurationReference = 943A5FCA1D4E20288461C95175D71707 /* ReusableProtocol.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -540,10 +556,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/ReusableProtocol/ReusableProtocol-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/ReusableProtocol/ReusableProtocol-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ReusableProtocol/ReusableProtocol.modulemap";
 				PRODUCT_MODULE_NAME = ReusableProtocol;
@@ -551,7 +570,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -559,12 +579,45 @@
 			};
 			name = Release;
 		};
-		AF9C651206F6079F18AB32C13BF2353E /* Debug */ = {
+		89F87D6D7E41A8B1B8CA4C1C6CCA0620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB7DDE18C1418FBD31B7AEAF37B8C32A /* ReusableProtocol.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ReusableProtocol/ReusableProtocol-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ReusableProtocol/ReusableProtocol-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReusableProtocol/ReusableProtocol.modulemap";
+				PRODUCT_MODULE_NAME = ReusableProtocol;
+				PRODUCT_NAME = ReusableProtocol;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BCB35D9960B189934BDA571ED50E1B33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C506A2D72051FFD855D8EC5AA2E3EBC6 /* Pods-ReusableProtocol_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -573,9 +626,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-ReusableProtocol_Tests/Pods-ReusableProtocol_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ReusableProtocol_Tests/Pods-ReusableProtocol_Tests.modulemap";
@@ -592,77 +647,11 @@
 			};
 			name = Debug;
 		};
-		CACB6CB7E8DCBF00525D7C95E6B3F74C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F459422190EA45018A30A93E8A18FA9 /* ReusableProtocol.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ReusableProtocol/ReusableProtocol-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReusableProtocol/ReusableProtocol-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ReusableProtocol/ReusableProtocol.modulemap";
-				PRODUCT_MODULE_NAME = ReusableProtocol;
-				PRODUCT_NAME = ReusableProtocol;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DE8FFFC9546629560BE4EB3657D8B6A2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF07CD750123668CA3D029B9B0060A46 /* Pods-ReusableProtocol_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ReusableProtocol_Example/Pods-ReusableProtocol_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ReusableProtocol_Example/Pods-ReusableProtocol_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E0BF9B97E4A789F052A24687C335BF7E /* Debug */ = {
+		C00F413FBE89C06206EB87D337E751CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A5F82A5DE11CD84856BA9941E477E9B /* Pods-ReusableProtocol_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -671,9 +660,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-ReusableProtocol_Example/Pods-ReusableProtocol_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ReusableProtocol_Example/Pods-ReusableProtocol_Example.modulemap";
@@ -690,37 +681,65 @@
 			};
 			name = Debug;
 		};
-		FA9452479E03A6DB1DCEE1F02D738394 /* Release */ = {
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96061DECA95624E4BAD1959A4A1D0F9B /* Pods-ReusableProtocol_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ReusableProtocol_Tests/Pods-ReusableProtocol_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ReusableProtocol_Tests/Pods-ReusableProtocol_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
@@ -730,35 +749,35 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D485FD3905732ECA2F01C55706A8E14 /* Build configuration list for PBXNativeTarget "Pods-ReusableProtocol_Tests" */ = {
+		4B3C25A06E7395BBEB0202DABE53E30E /* Build configuration list for PBXNativeTarget "Pods-ReusableProtocol_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF9C651206F6079F18AB32C13BF2353E /* Debug */,
-				FA9452479E03A6DB1DCEE1F02D738394 /* Release */,
+				C00F413FBE89C06206EB87D337E751CF /* Debug */,
+				042ACA50C529694633EC1347415F7568 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDB4D5E67B4DBD6E8D577AE94B279405 /* Build configuration list for PBXNativeTarget "ReusableProtocol" */ = {
+		961A1D6259A1C7546F9786CFE8A86709 /* Build configuration list for PBXNativeTarget "ReusableProtocol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CACB6CB7E8DCBF00525D7C95E6B3F74C /* Debug */,
-				A51537C2C506ECA1E513890B3DBFB3FC /* Release */,
+				89F87D6D7E41A8B1B8CA4C1C6CCA0620 /* Debug */,
+				83FB3CF10CA9543074383A187B8817CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0BFCE0506B5998872182598DDD294B8 /* Build configuration list for PBXNativeTarget "Pods-ReusableProtocol_Example" */ = {
+		9C75E8CF3F1162385685F8195FCFBE9C /* Build configuration list for PBXNativeTarget "Pods-ReusableProtocol_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0BF9B97E4A789F052A24687C335BF7E /* Debug */,
-				DE8FFFC9546629560BE4EB3657D8B6A2 /* Release */,
+				BCB35D9960B189934BDA571ED50E1B33 /* Debug */,
+				13F6927B217492A503CF2FAB172C9DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
