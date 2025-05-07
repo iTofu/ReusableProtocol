@@ -8,6 +8,7 @@
 [![CocoaPods](https://img.shields.io/cocoapods/dt/ReusableProtocol.svg)](https://cocoapods.org/pods/ReusableProtocol)
 [![LeoDev](https://img.shields.io/badge/blog-LeoDev.me-brightgreen.svg)](https://leodev.me)
 [![GitHub stars](https://img.shields.io/github/stars/iTofu/ReusableProtocol.svg?style=social&label=Star)](https://github.com/iTofu/ReusableProtocol)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FiTofu%2FReusableProtocol.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FiTofu%2FReusableProtocol?ref=badge_shield)
 
 🎏 ReusableProtocol is a helpful and pure Swift implemented library for registering and reusing cells or views in the table view and collection view. You may never care about what the reuse identifier is.
 
@@ -97,3 +98,6 @@ Leo, leodaxia@gmail.com
 ## License
 
 ReusableProtocol is available under the MIT license. See the LICENSE file for more info.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FiTofu%2FReusableProtocol.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FiTofu%2FReusableProtocol?ref=badge_large)
